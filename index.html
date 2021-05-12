@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Oswald:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="icon" type="image/png" href="images/logo.png" />
+    <title>Durock Keyboard Mech</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html"
+              ><img src="images/logo.png" width="150px" alt="Durock Mech Logo"
+            /></a>
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="account.html">Account</a></li>
+            </ul>
+          </nav>
+          <a href="cart.html"
+            ><img src="images/cart.png" width="30px" height="30px"
+          /></a>
+          <img src="images/menu.png" class="menu-icon" onclick="menuToggle()" />
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <h1>Give Your Keyboard<br />A New Feel</h1>
+            <p>
+              A keyboard is at it's best when the switches <br />and stabilizers
+              are smooth and consistent.
+            </p>
+            <a href="products.html" class="btn">Explore Now &#8594;</a>
+          </div>
+          <div class="col-2">
+            <img src="images/switches_main.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----- featured categories ----->
+    <div class="categories">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <img src="images/switch_break_1.jpg" />
+          </div>
+          <div class="col-3">
+            <img src="images/switch_break_2.jpg" />
+          </div>
+          <div class="col-3">
+            <img src="images/switch_break_3.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----- Featured Products ----->
+    <div class="small-container">
+      <h2 class="title">Featured Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="images/durock_springs.jpg" />
+          <h4>Durock Springs (62g) (Pack of 110)</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$12.00</p>
+        </div>
+        <div class="col-4">
+          <a href="pom-details.html"><img src="Durock POM/pom_switch.jpg" /></a>
+          <a href="pom-details.html"
+            ><h4>Durock POM Linear Switches (63.5g) (Pack of 10)</h4></a
+          >
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>$6.50</p>
+        </div>
+        <div class="col-4">
+          <img src="images/durock_stabs_v1.jpg" />
+          <h4>Durock Stabilizers (V1)</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>$20.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/koala.jpg" />
+          <h4>Durock Koala Tactile Switches (67g) (Pack of 10)</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$6.00</p>
+        </div>
+      </div>
+
+      <!----- Latest Products ----->
+      <h2 class="title">Latest Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="images/durock_stabs_pm.jpg" />
+          <h4>Durock Stabilizers (Pre-Clipped Plate Mount)</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$19.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/durock_springs_v2.jpg" />
+          <h4>Durock Springs (55g) (Pack of 110)</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>$6.50</p>
+        </div>
+        <div class="col-4">
+          <img src="images/t1.jpg" />
+          <h4>Durock T1 Tactile Switch (67g) (Pack of 10)</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$5.50</p>
+        </div>
+        <div class="col-4">
+          <img src="images/durock_stabs_v2.jpg" />
+          <h4>Durock Stabilizers (V2)</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>$22.00</p>
+        </div>
+      </div>
+    </div>
+
+    <!----- Offer ----->
+    <div class="offer">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-2">
+            <img src="images/alpaca_solo.png" class="offer-img" />
+          </div>
+          <div class="col-2">
+            <p>Exclusively Available at Durock Keyboard Mech</p>
+            <h1>Alpaca V2 Linear Switches (62g)</h1>
+            <small
+              >Alpacas are smooth linear switches with gold plated 62g springs
+              (bottom out) made of a polycarbonate top housing, a nylon bottom
+              and a POM stem. These switches are PCB mount (5-pin) that come
+              lightly lubed with a thin application of oil. </small
+            ><br />
+            <a href="" class="btn">Buy Now &#8594;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----- Testimonials ----->
+    <div class="testimonial">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+              porro iusto pariatur ut, labore possimus iure eligendi impedit
+              fuga totam cumque.
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <img src="images/user_1.png" />
+            <h3>John Doe</h3>
+          </div>
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+              porro iusto pariatur ut, labore possimus iure eligendi impedit
+              fuga totam cumque.
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+            <img src="images/user_2.png" />
+            <h3>Jane Doe</h3>
+          </div>
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+              porro iusto pariatur ut, labore possimus iure eligendi impedit
+              fuga totam cumque.
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <img src="images/user_3.png" />
+            <h3>Sean Doe</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----- Partners ----->
+    <div class="partners">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-5">
+            <a href="https://thekey.company/">
+              <img src="images/partner_1.png" />
+            </a>
+          </div>
+          <div class="col-5">
+            <a href="https://omnitype.com/">
+              <img src="images/partner_2.png" />
+            </a>
+          </div>
+          <div class="col-5">
+            <a href="https://www.reddit.com/r/MechanicalKeyboards/">
+              <img src="images/partner_3.jpg" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----- Footer ----->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Donwload Our App</h3>
+            <p>Download the App for Android and iOS Devices!</p>
+            <div class="app-logo">
+              <a href="#"><img src="images/play-store.png" /></a>
+              <a href="#"><img src="images/app-store.png" /></a>
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <a href="index.html"><img src="images/logo.png" /></a>
+            <p>Quality Keyboards Start with Durock.</p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li><a href="#">Coupons</a></li>
+              <li><a href="#">Blog Post</a></li>
+              <li><a href="#">Return Policy</a></li>
+              <li><a href="#">Join Affiliate</a></li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow Us</h3>
+            <ul>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Reddit</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright 2021 - David Ortiz-Alejandre</p>
+      </div>
+    </div>
+    <!--- JS For Toggle Menu --->
+    <script>
+      let MenuItems = document.getElementById("MenuItems");
+
+      MenuItems.style.maxHeight = "0px";
+
+      function menuToggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>

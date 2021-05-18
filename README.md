@@ -5,3 +5,5 @@
 * This landing page demonstrates how a product is portrayed to a customer whenever they visit the site.
 * With this landing page, the viewer can see the main product, navigation bar, and links to relevant pages. 
 * If the user clicks on a different image located at the bottom of the page, it will bring up the new product image, while changing the background color to match the product color scheme.
+
+View the live demo here: https://durockkeyboardmech.netlify.app/
